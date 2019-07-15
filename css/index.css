@@ -1,3 +1,124 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+.container {
+	width: 900px;
+	margin: auto;
 
+}
+
+header nav {
+	display: flex;
+	flex-direction:row;
+	margin-top:25px;
+	justify-content:space-evenly;
+	margin-bottom:20px;
+}
+
+header nav a {
+	margin: 0 22px;
+	color: grey;
+	text-decoration:none;
+
+
+
+}
+
+.bigtitle{
+	height:175px;
+	width:350px;
+	font-size:75px;
+	font-family: 'Bangers', cursive;
+	text-align:center;
+	margin-left:60px;
+	display:inline-block;
+	margin-right:80px;
+	position: relative;
+	top: -100px;
+}
+
+.button1 {
+	border: 1px solid black;
+	height: 25px;
+	width: 110px;
+	margin-left: 175px;
+	position: relative;
+	top: -85px;
+}
+.content{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	height:515px;
+	width:900px;
+	margin-top:40px;
+}
+.features{
+
+	height: 100px;
+	width: 45%;
+	margin-bottom:20px;
+	margin-top:20px;
+
+}
+.about{
+
+	height: 100px;
+	width: 45%;
+	margin-top: 20px;
+	margin-bottom:20px;
+
+}
+
+.feat-about{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+}
+.middle-img{
+	display:block;
+	margin:auto;
+}
+
+.spv{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+
+}
+.services{
+
+
+	height: 133px;
+	width: 285px;
+	margin-top: 30px;
+	margin-right:10px;
+}
+.product{
+
+	height: 133px;
+	width: 285px;
+	margin-right: 10px;
+	margin-top:30px;
+}
+.vision{
+
+	height: 133px;
+	width: 285px;
+	margin-top:30px;
+	margin-right:10px;
+
+}
+
+footer h3{
+	margin-top:30px;
+}
+#copyright{
+	margin-bottom:70px;
+	text-align: center;
+	margin-top:40px;
+}
+footer address{
+	margin-bottom:15px;
+}
+footer #p1{
+	margin-bottom:15px;
+} 
 
