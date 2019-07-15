@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -63,218 +58,196 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
-	width: 900px;
-	margin: auto;
-
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
 }
 
+/* header */
+
 header nav {
-	display: flex;
-	flex-direction:row;
-	margin-top:25px;
-	justify-content:space-evenly;
-	margin-bottom:20px;
+  display: inline-block;
+  width: 691px;
+  vertical-align: top;
+  margin-top: 35px;
 }
 
 header nav a {
-	margin: 0 22px;
-	color: grey;
-	text-decoration:none;
-	
-
-
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
 }
 
-.bigtitle{
-	height:175px;
-	width:350px;
-	font-size:75px;
-	font-family: 'Bangers', cursive;
-	text-align:center;
-	margin-left:60px;
-	display:inline-block;
-	margin-right:80px;
-	position: relative;
-	top: -100px;
+header nav a:hover {
+  text-decoration: underline;
 }
 
-.button1 {
-	border: 1px solid black;
-	height: 25px;
-	width: 110px;
-	margin-left: 175px;
-	position: relative;
-	top: -85px;
-}
-.content{
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	height:515px;
-	width:900px;
-	margin-top:40px;
-}
-.features{
-
-	height: 100px;
-	width: 45%;
-	margin-bottom:20px;
-	margin-top:20px;
-	
-}
-.about{
-
-	height: 100px;
-	width: 45%;
-	margin-top: 20px;
-	margin-bottom:20px;
-	
+header nav a:first-child {
+  margin-left: 0;
 }
 
-.feat-about{
-	display:flex;
-	flex-direction:row;
-	justify-content:space-evenly;
-}
-.middle-img{
-	display:block;
-	margin:auto;
+header nav a:last-child {
+  margin-right: 0;
 }
 
-.spv{
-	display:flex;
-	flex-direction:row;
-	justify-content:space-evenly;
-
-}
-.services{
-
-
-	height: 133px;
-	width: 285px;
-	margin-top: 30px;
-	margin-right:10px;
-}
-.product{
-
-	height: 133px;
-	width: 285px;
-	margin-right: 10px;
-	margin-top:30px;
-}
-.vision{
-
-	height: 133px;
-	width: 285px;
-	margin-top:30px;
-	margin-right:10px;
-	
+header .logo {
+  margin-top: 25px;
 }
 
-footer h3{
-	margin-top:30px;
-}
-#copyright{
-	margin-bottom:70px;
-	text-align: center;
-	margin-top:40px;
-}
-footer address{
-	margin-bottom:15px;
-}
-footer #p1{
-	margin-bottom:15px;
-} 
+/* cta */
 
-
-
-/* Your code starts here! */ 
-
-.container2{
-	
-	padding:10px;
-}
-.header2 .nav2{
-	display:flex;
-	justify-content:space-between;
-	margin-top:30px
-	
-}
-.header2 .nav2 .a2{
-	color:grey;
-	text-decoration: none;
-	height:
-	
-}
-.logo2{
-	margin-left:15px;
-	margin-bottom:25px;
-}
-.services-header-img{
-	display:block;
-	margin:auto;
-	margin-bottom:25px;
+.cta .cta-text {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 75px;
 }
 
-.services2{
-	display:flex;
-	flex-direction:column;
-
-}
-.servicestitle{
-	font-size:25px;
-	font-family: 'Bangers', cursive;
-	margin:10px;
-}
-.box{
-	height:20%;
-	width:46%;
-	padding:5%;
-	margin:2%;
-	border:1px solid black;
-	background-color:whitesmoke;
+.cta .cta-text button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
-.middlecontent{
-	display:flex;
-	flex-wrap: wrap;
-	justify-content:space-around;
-	align-content:space-around;
-	margin:20px;
-	border-top:1px solid black;
-	border-bottom:2px solid black;
-	
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
 }
 
-.learnmore{
-	margin-top:18px;
-	width:115px;
-	height:35px;
-	background-color:white;
-}
-.bottom2{
-	display:flex;
-	justify-content: space-around;
-}
-.bottom3{
-	width:45%;
-	
-	
-}
-#lastp{
-	margin-bottom:10px;
+.cta img {
+  display: inline-block;
+  margin-top: 69px;
 }
 
-#copyright2{
-	margin-bottom:5px;
-	text-align: center;
-	margin-top:80px;
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
 }
-ul.squareb{
-		list-style-type: square;
-		margin-left:20px;	
+
+.main-content .top-content {
+  padding: 0 10px;
+}
+
+.main-content .top-content .text-content {
+  width: 410px;
+  display: inline-block;
+  margin-right: 34px;
+}
+
+.main-content .top-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+.main-content .bottom-content {
+  margin-top: 37px;
+  padding: 0 10px;
+}
+
+.main-content .bottom-content .text-content {
+  width: 275px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.main-content .bottom-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
 }
 
 /* RESPONSIVE */
 
+@media(max-width: 800px){
+header nav {
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:center;
+   
+}
+
+.cta{
+    display:flex;
+    justify-content:center;
+}
+.cta img{
+    display:none;
+    
+}
+}
+
+@media(max-width: 500px){
+    .container{
+        width:500px;
+        padding:20px;
+    }
+    
+    .text-content{
+        margin:10px;
+    }
+    .main-content .bottom-content .text-content {
+        width: 410px;
+        display: inline-block;
+        margin-right: 12px;
+      }
+    header nav{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+    }
+    .logo{
+      display:flex;
+      order:-1;
+      justify-content:center;
+      margin:20px;
+      position:relative;
+      left:-95px;
+    }
+    header nav a {
+        border-top: 1px solid black;
+        font-size:30px;
+        width:500px;
+        display:flex;
+        justify-content:center;
+        padding:20px;
+        position:relative;
+        left:-75px;
+        
+    }
+    .contactn{
+        display:flex;
+        justify-content:center;
+        border-bottom:1px solid black;
+    }
+    .main-content{
+        display:flex;
+        flex-direction:column;
+    }
+}
